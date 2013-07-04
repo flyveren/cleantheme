@@ -8,5 +8,6 @@
 ?>
 
 <?php
-register_nav_menu('main', 'Main navigation menu');
+	//Register the main menu ind backend
+	register_nav_menu('main', 'Main navigation menu');
 ?>
