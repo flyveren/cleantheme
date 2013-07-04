@@ -4,7 +4,7 @@
 		<div class="container">
 			
 			<div class="sixteen coloumns">
-				<p>I am page.php</p>
+
 				<?php if (have_posts()) : ?>  
 				
 				    <?php while (have_posts()) : the_post(); ?>  

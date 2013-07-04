@@ -1,6 +1,4 @@
 <div id="footer">
-	
-	<p>footer wooop wooop</p>
 
 </div>
 

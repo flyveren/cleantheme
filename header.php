@@ -8,7 +8,6 @@
 	<!-- Mobile Specific Metas
 	================================================== -->
 	<meta name="viewport" content="device-width, initial-scale=1, maximum-scale=1">
-	
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
@@ -23,8 +22,6 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/base.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/flexslider.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/nav.css" type="text/css" media="screen" />
-	
-	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>" type="text/css" media="screen" />
 	
 
@@ -33,9 +30,7 @@
 	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script> 	 
 	 <script src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js" type="text/javascript"></script>
 	 <script src="<?php bloginfo('template_url'); ?>/js/nav.js" type="text/javascript"></script> 	 
-	 <script src="<?php bloginfo('template_url'); ?>/js/enquire.min.js" type="text/javascript"></script> 	 
-	 
-	 
+	 <script src="<?php bloginfo('template_url'); ?>/js/enquire.min.js" type="text/javascript"></script> 	  
 	 <script src="<?php bloginfo('template_url'); ?>/js/scripts.js" type="text/javascript"></script> 	 
 	 
 	 <?php wp_head(); ?>
@@ -46,8 +41,7 @@
 		<div class="container">
 			<div class="sixteen columns">
 				<div id="navigationToggle"></div>
-				<div id="navigation">
-						
+				<div id="navigation">						
 					<?php wp_nav_menu( array( 'menu' => 'header', 'container_class' => 'menu-header' ) ); ?> 
 					<div class="clear"></div>
 				</div>
