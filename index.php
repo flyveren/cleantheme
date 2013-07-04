@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="wrapper">
-		<p>I am index.php</p>
+
 		<?php if (have_posts()) : ?>  
 		
 		    <?php while (have_posts()) : the_post(); ?>  
