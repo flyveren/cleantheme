@@ -1,5 +1,5 @@
 <?php /* Template Name: Clean responsive template */ ?>
-
+test git commit
 <?php get_header(); ?>
 
 	<div id="wrapper">
