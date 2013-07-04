@@ -6,3 +6,7 @@
 	
 	add_action( 'after_setup_theme', 'your_function_name' );
 ?>
+
+<?php
+register_nav_menu('main', 'Main navigation menu');
+?>
